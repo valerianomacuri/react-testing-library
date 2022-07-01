@@ -25,6 +25,9 @@ const TestHookReducer = () => {
        <button onClick={dispatchActionSuccess}>
          Dispatch Success
        </button>
+       <button onClick={dispatchActionFailure}>
+         Dispatch Failure
+       </button>
     </div>
   )
 }
